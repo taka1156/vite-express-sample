@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue';
 import { resolve } from 'path';
 
 export default defineConfig({
-  base:  process.env.NODE_ENV === 'production' ? '/api/docs/': './',
+  base:  process.env.NODE_ENV === 'production' ? '/api/': './',
   root: 'app/client/',
   cacheDir: resolve(__dirname + '/app/.cache/client/'),
   build: {

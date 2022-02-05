@@ -1,7 +1,8 @@
 <template>
-  <p>
-    <a href="../v1/">API</a>
-  </p>
+  <ul>
+    <li><a href="./v1/">API v1</a></li>
+    <li><a href="./v2/">API v2</a></li>
+  </ul>
 
   <h1>{{ props.msg }}</h1>
 
@@ -52,6 +53,12 @@
   label {
     margin: 0 0.5em;
     font-weight: bold;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
 
   code {

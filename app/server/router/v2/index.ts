@@ -1,9 +1,9 @@
 import express from 'express';
 
-const router = express.Router();
+const router_v2 = express.Router();
 
-router.get('/', (_, res) => {
+router_v2.get('/', (_, res) => {
   res.send('<h1>Server is running v2</h1>');
 });
 
-export { router };
+export { router_v2 };
