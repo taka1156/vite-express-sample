@@ -1538,10 +1538,10 @@ vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
 
-vite-plugin-node@^0.0.15:
-  version "0.0.15"
-  resolved "https://registry.yarnpkg.com/vite-plugin-node/-/vite-plugin-node-0.0.15.tgz#6dc070b034342b598c0f778ebd05178418a54ad2"
-  integrity sha512-lVOL4SbBozedjC1NS3KQq4wDU+9OLn29B4AZJwmCyDvDMHS4VMTtjeUMpb11/sLm86YlXA0VeTB92uGeAaN9Yw==
+vite-plugin-node@^0.0.17:
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/vite-plugin-node/-/vite-plugin-node-0.0.17.tgz#7ae90fb198c5862b51eff733e8f6e1a33947b66b"
+  integrity sha512-DY/4P2HOqsuJg5ndTsUtrw6uSqFp2dOwUFiQum/t2aqZqWP4XT8BFkQKt/ZIZTs3c7EVPSAu48sizPkP5m5TmA==
   dependencies:
     "@rollup/pluginutils" "^4.1.1"
     "@swc/core" "^1.2.93"

@@ -21,7 +21,7 @@
     "prettier": "^2.5.1",
     "typescript": "^4.5.5",
     "vite": "^2.7.13",
-    "vite-plugin-node": "^0.0.15"
+    "vite-plugin-node": "^0.0.17"
   },
   "dependencies": {
     "basic-auth-connect": "^1.0.0"

@@ -9,14 +9,13 @@ export default defineConfig({
     port: 3000,
   },
   build: {
-    ssr: 'index.ts',
     outDir: '../api',
     emptyOutDir: true
   },
   plugins: [
     ...VitePluginNode({
       adapter: 'express',
-      appPath: 'src/index.ts',
+      appPath: process.env.NODE_ENV ==='production' ? 'index.ts' : 'src/index.ts',
       tsCompiler: 'esbuild',
     }),
   ],
