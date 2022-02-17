@@ -15,8 +15,8 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "paths": {
-      "@/*": ["app/*"]
+      "@/*": ["src/*"]
     }
   },
-  "include": ["app"]
+  "include": ["src"]
 }

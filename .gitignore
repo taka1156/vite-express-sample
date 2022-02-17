@@ -1,5 +1,6 @@
 /node_modules/
 .env
 dist/
+api/
 .cache/
 yarn-error.log

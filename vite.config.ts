@@ -3,26 +3,26 @@ import { VitePluginNode } from 'vite-plugin-node';
 import { resolve } from 'path';
 
 export default defineConfig({
-  root: 'app/server/',
-  cacheDir: resolve(__dirname + '/app/.cache/server/'),
+  root: 'src',
+  cacheDir: resolve(__dirname + '/src/.cache/'),
   server: {
     port: 3000,
   },
   build: {
     ssr: 'index.ts',
-    outDir: '../../dist/server',
+    outDir: '../api',
     emptyOutDir: true
   },
   plugins: [
     ...VitePluginNode({
       adapter: 'express',
-      appPath: 'app/server/index.ts',
+      appPath: 'src/index.ts',
       tsCompiler: 'esbuild',
     }),
   ],
   resolve: {
     alias: {
-      '@': resolve(__dirname, 'app'),
+      '@': resolve(__dirname, 'src'),
     },
   },
 });
